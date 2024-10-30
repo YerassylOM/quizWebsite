@@ -20,6 +20,7 @@ body{
     top: 0;
     left: 0;
     background: transparent;
+    z-index: 1;
 }
 .logo{
     font-size: 32px;
@@ -38,8 +39,9 @@ body{
 }
 .navbar a:hover, .navbar a.active{
     color: red;
-    /* filter: drop-shadow(2px 2px 5px #ff0505); */
+    filter: drop-shadow(2px 2px 5px #ff0505);
 }   
+
 .main{
     min-height: 100vh;
     background: url(images/quiz_back.jpg) no-repeat;

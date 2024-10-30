@@ -33,7 +33,8 @@ continueBtn.onclick = () => {
 tryAgainBtn.onclick = () => {
     quizBox.classList.add('active');
     resultBox.classList.remove('active');
-    nextBtn.classList.remove('active') 
+    nextBtn.classList.remove('active');
+    main.classList.remove('active');
 
     questionCount = 0;
     questionNumber = 1;
