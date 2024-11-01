@@ -222,7 +222,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid darkblue;
     margin-bottom: 30px;
 }
 .quiz-header span{
@@ -271,7 +271,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 2px solid red;
+    border-top: 2px solid darkblue;
     padding-top: 20px;
     margin-top: 25px;
 }
